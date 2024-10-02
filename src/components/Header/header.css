@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5rem 20rem;
+    background-color: white;
+}
+.header__logo img{
+    height: 30px;
+}
+.header__navigation ul {
+  display: flex;
+  gap: 20px;
+}
+.header__navigation a {
+  color: #333;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #f25f3a;
+  color: white;
+  border-radius: 50px;
+  border: none;
+}
+.btn:hover{
+    cursor: pointer;
+}
