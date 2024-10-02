@@ -8,17 +8,15 @@ interface CardProps{
     text: string
 }
 
-export default function CardComments(){
+export default function CardComments({ img, name, text }: CardProps) {
 
-    function buildCard({img, name, text}: CardProps){
-        return <div className="card">
-            
-        </div>
-    }
-
-    return(
-        <div className="card-comments">
-
-        </div>
-    )
+	return (
+		<div className="card">
+			<img className="card__img" src={img} alt="" />
+			<div className="card__container">
+				<h3 className="card__container__name">{name}</h3>
+				<p className="card__container__text">{text}</p>
+			</div>
+		</div>
+	);
 }
