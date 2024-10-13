@@ -42,5 +42,12 @@
 .about__container__list p {
 	color: #666;
 	line-height: 1.6;
-    margin-left: 21%;
+	margin-left: 21%;
+}
+
+@media screen and (max-width: 992px) {
+	.about__container {
+		flex-direction: column;
+		text-align: center;
+	}
 }

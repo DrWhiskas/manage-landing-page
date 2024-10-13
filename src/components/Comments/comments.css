@@ -1,6 +1,10 @@
 .comments {
 	padding: 50px;
 	text-align: center;
+	position: relative;
+}
+.comments__btn{
+	margin-top: 5rem;
 }
 
 .comments__title {

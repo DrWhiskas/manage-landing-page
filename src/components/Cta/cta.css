@@ -1,0 +1,19 @@
+.cta{
+    background-color: rgb(243, 97, 60);
+    width: 100%;
+    padding: 5rem;
+}
+.cta__container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 2rem;
+}
+.btn__cta{
+    background-color: white;
+    color: rgb(243, 97, 60);
+}
+.btn__cta:hover{
+    background-color: white;
+     color: rgb(243, 97, 60);
+}

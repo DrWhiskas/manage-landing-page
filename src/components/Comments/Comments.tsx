@@ -33,6 +33,7 @@ export default function Comments(){
 						text="Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive."
 					/>
 				</div>
+				<button className="btn comments__btn">Get Started</button>
 			</div>
 		);
 }

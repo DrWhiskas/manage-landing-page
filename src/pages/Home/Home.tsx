@@ -5,6 +5,8 @@ import Header from "../../components/Header/Header";
 import Main from "../../components/Main/Main";
 import About from "../../components/About/About";
 import Comments from "../../components/Comments/Comments";
+import Cta from "../../components/Cta/Cta";
+import Footer from "../../components/Footer/Footer";
 
 export default function Home(){
     return(
@@ -13,6 +15,8 @@ export default function Home(){
             <Main />
             <About />
             <Comments />
+            <Cta />
+            <Footer />
         </div>
     )
 }
