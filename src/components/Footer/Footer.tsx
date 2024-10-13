@@ -84,7 +84,7 @@ export default function Footer() {
 					</ul>
 				</nav>
 				<form>
-					<input className="footer__container__input" type="text" />
+					<input className="footer__container__input" type="text"  placeholder='Updates in your inbox...'/>
 					<button className="btn footer__container__input__btn">Go</button>
 				</form>
 			</div>

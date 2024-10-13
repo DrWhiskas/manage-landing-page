@@ -46,8 +46,39 @@
 }
 
 @media screen and (max-width: 992px) {
+	.about {
+		padding: 0;
+		display: block;
+	}
 	.about__container {
 		flex-direction: column;
 		text-align: center;
+	}
+	.about__container__main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.about__container__list__number {
+		z-index: 1;
+	}
+	.about__container__list__title {
+		background-color: #fff0eb;
+		padding: 0.5rem;
+		margin-left: -0.45rem;
+	}
+	.about__container__list__header {
+		gap: 0;
+		justify-content: center;
+	}
+	.about__container__list p {
+		margin: 0;
+		width: 70vw;
+		place-self: center;
+	}
+	.about__container__text {
+		width: 70vw;
+		display: flex;
+		justify-content: center;
 	}
 }

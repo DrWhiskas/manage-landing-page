@@ -53,4 +53,8 @@
     text-align: -webkit-center;
 
 	}
+	.main__container__build{
+		max-width: none;
+		width: 70vw;
+	}
 }

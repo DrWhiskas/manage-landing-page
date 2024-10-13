@@ -37,3 +37,9 @@
   color: #555;
   line-height: 1.6;
 }
+
+@media screen and (max-width: 992px) {
+  .card{
+    margin-bottom: 4rem;
+  }
+}
